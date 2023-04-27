@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <div class={['container', styles.hero]}>
       <h1>
-        So <span class="highlight">fantastic</span>
+        So <span class="highlight">SAIA</span>
         <br />
         to have <span class="highlight">you</span> here
       </h1>
