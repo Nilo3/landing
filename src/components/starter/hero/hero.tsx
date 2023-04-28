@@ -5,9 +5,9 @@ export default component$(() => {
   return (
     <div class={['container', styles.hero]}>
       <h1>
-        So <span class="highlight">SAIA</span>
+        En el centro 
         <br />
-        to have <span class="highlight">you</span> here
+        <span class="highlight">del ecosistema IA</span>
       </h1>
       <p>Have fun building your App with Qwik.</p>
       <div class={styles['button-group']}>
