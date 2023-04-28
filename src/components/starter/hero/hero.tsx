@@ -4,11 +4,16 @@ import styles from './hero.module.css';
 export default component$(() => {
   return (
     <div class={['container', styles.hero]}>
-      <h1>
-        En el centro 
-        <br />
-        <span class="highlight">del ecosistema IA</span>
-      </h1>
+<div class=" py-16 px-4 md:px-0">
+  <div class="container mx-auto">
+    <h1 class="text-white text-3xl md:text-5xl font-bold leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
+      Conectando al ecosistema IA
+    </h1>
+  </div>
+
+
+
+</div>
       <p>Have fun building your App with Qwik.</p>
       <div class={styles['button-group']}>
         <button

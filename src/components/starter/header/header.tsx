@@ -1,34 +1,27 @@
 import { component$ } from '@builder.io/qwik';
-import { QwikLogo } from '../icons/qwik';
-import styles from './header.module.css';
+import { SaiaLogo } from '../icons/saia';
+
+ 
+
 
 export default component$(() => {
   return (
-    <header class={styles.header}>
-      <div class={['container', styles.wrapper]}>
-        <div class={styles.logo}>
-          <a href="/" title="qwik">
-            <QwikLogo height={50} width={143} />
+    <header class="bg-transparent">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
+
+
+            <div class="flex lg:flex-1">
+          <a href="/" class="-m-1.5 p-1.5"title="saia">
+            <SaiaLogo height={50} width={133} />
           </a>
-        </div>
-        <ul>
-          <li>
-            <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
-              Docs
-            </a>
-          </li>
-          <li>
-            <a href="https://qwik.builder.io/examples/introduction/hello-world/" target="_blank">
-              Examples
-            </a>
-          </li>
-          <li>
-            <a href="https://qwik.builder.io/tutorial/welcome/overview/" target="_blank">
-              Tutorials
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
+    </div>
+            <div class="flex flex-1 items-center justify-end gap-x-6">
+      <a href="https://www.instagram.com/saia_ar/" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Instagram</a>
+      <a href="https://twitter.com/SAIA_AR" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Twitter</a>
+      <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a>
+      <a href="/form" class="rounded-full bg-white px-2 py-1 text-xs font-semibold text-black shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Ser Parte</a>
+    </div>
+        </nav></header>
+
   );
 });

@@ -1,4 +1,13 @@
 /**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/**
  * WHAT IS THIS FILE?
  *
  * Globally applied styles. No matter which components are in the page or matching route,
@@ -8,11 +17,11 @@
 
 :root {
   --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #b018f6;
+  --qwik-light-blue: #5e0c84;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
   --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
+  --qwik-dark-background: #000000;
   --qwik-dark-text: #ffffff;
 }
 
@@ -22,7 +31,7 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  font-family: "Times New Roman";
+  font-family: "Manrope", sans-serif;
 }
 
 body {
@@ -43,7 +52,7 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  font-family: "Times New Roman";
+  font-family: "Manrope", sans-serif;
 }
 
 body {
