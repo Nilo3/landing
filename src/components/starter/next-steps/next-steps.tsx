@@ -1,5 +1,4 @@
 import { component$, $, useOnWindow, useSignal } from '@builder.io/qwik';
-import styles from './next-steps.module.css';
 
 export const GETTING_STARTED_STEPS = [
   {
@@ -41,13 +40,14 @@ export default component$(() => {
   );
 
   return (
-    <div class="container container-purple container-center">
-      <h2>
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
+      <p class="text-white font-medium text-base lg:text-lg xl:text-xl">Para sumarse, enviar un email a <a href="mailto:comunidad@saia.ar" class="underline">comunidad@saia.ar</a></p>
+      {/* <h2>
         Time for a quick
         <br />
         <span class="highlight">qwik intro</span>?
-      </h2>
-      <div class={styles.gettingstarted}>
+      </h2> */}
+      {/* <div class="">
         <div
           class={styles.intro}
           dangerouslySetInnerHTML={GETTING_STARTED_STEPS[gettingStartedStep.value].message}
@@ -56,8 +56,8 @@ export default component$(() => {
           class={styles.hint}
           dangerouslySetInnerHTML={GETTING_STARTED_STEPS[gettingStartedStep.value].hint}
         />
-      </div>
-      {gettingStartedStep.value + 1 < GETTING_STARTED_STEPS.length ? (
+      </div> */}
+      {/* {gettingStartedStep.value + 1 < GETTING_STARTED_STEPS.length ? (
         <button class="button-dark" onClick$={() => gettingStartedStep.value++}>
           Continue with Step {gettingStartedStep.value + 2} of {GETTING_STARTED_STEPS.length}
         </button>
@@ -65,7 +65,7 @@ export default component$(() => {
         <button class="button-dark" onClick$={() => (gettingStartedStep.value = 0)}>
           Re-Start
         </button>
-      )}
+      )} */}
     </div>
   );
 });

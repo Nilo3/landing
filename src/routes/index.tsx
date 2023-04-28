@@ -15,15 +15,9 @@ export default component$(() => {
       <div role="presentation" class="ellipsis"></div>
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
 
-      <div class="container container-center container-spacing-xl">
-        <h3>
-          You can <span class="highlight">count</span>
-          <br /> on me
-        </h3>
-        <Counter />
-      </div>
 
-      <div class="container container-flex">
+
+      {/* <div class="container container-flex">
         <Infobox>
           <div q:slot="title" class="icon icon-cli">
             CLI Commands
@@ -96,7 +90,7 @@ export default component$(() => {
             </ul>
           </Infobox>
         </div>
-      </div>
+      </div> */}
     </>
   );
 });
