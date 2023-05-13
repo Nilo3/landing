@@ -1,14 +1,12 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import Hero from '~/components/starter/hero/hero';
-import Starter from '~/components/starter/next-steps/next-steps';
-import Values from '~/components/starter/values/values';
+import Back from '~/components/starter/hero/back';
+
 export default component$(() => {
   return (
     <>
-      <Hero />
-      <Starter />
-      <Values />
+      <Back />
+
       <div role="presentation" class="ellipsis"></div>
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
 
@@ -93,11 +91,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Sociedad Argentina de Inteligencia Artificial',
+  title: 'Welcome to Qwik',
   meta: [
     {
       name: 'description',
-      content: 'SAIA - Sociedad Argentina de Inteligencia Artificial',
+      content: 'Qwik site description',
     },
   ],
 };

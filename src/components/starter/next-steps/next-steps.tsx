@@ -41,7 +41,7 @@ export default component$(() => {
 
   return (
     <div class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
-      <p class="text-white font-medium text-base lg:text-lg xl:text-xl">Para sumarse, enviar un email a <a href="mailto:comunidad@saia.ar" class="underline">comunidad@saia.ar</a></p>
+      {/* <p class="text-white font-medium text-base lg:text-lg xl:text-xl">Para sumarse, enviar un email a <a href="mailto:comunidad@saia.ar" class="underline">comunidad@saia.ar</a></p> */}
       {/* <h2>
         Time for a quick
         <br />
