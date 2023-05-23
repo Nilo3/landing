@@ -58,7 +58,6 @@ export const addMember = async (props) => {
 
 // @ts-ignore
 export const submitForm = routeAction$((props) => {
-  // Leave it as an exercise for the reader to implement this.
   console.log('FORM', props);
   addMember(props)
 });
@@ -69,13 +68,17 @@ export default component$(() => {
 
     <Form class="w-full max-w-lg mx-auto" action={fa}>
        <input type="hidden" name="jokeID" value="42" />
-   <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="flex flex-wrap -mx-3 mb-6">
+        
+
      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="nombre">
          Nombre
        </label>
        <input name="firstName" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="nombre" type="text" placeholder="Juan"></input>
-     </div>
+        </div>
+        
+
      <div class="w-full md:w-1/2 px-3">
        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="apellido">
          Apellido
@@ -100,7 +103,7 @@ export default component$(() => {
      </div>
    </div>
    <div class="md:flex md:items-center">
-     <button class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" >
+     <button class="rounded-full bg-transparent px-5 py-3 text-md font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black" >
        Enviar
      </button>
    </div>
