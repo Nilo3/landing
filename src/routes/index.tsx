@@ -4,10 +4,10 @@ import Hero from '~/components/starter/hero/hero';
 import Starter from '~/components/starter/next-steps/next-steps';
 import Values from '~/components/starter/values/values';
 import Brandquestions from '~/components/starter/brandquestions/brandquestions';
-import { Image } from '@unpic/qwik'
+// import { Image } from '@unpic/qwik'
 
 import { routeAction$, zod$, z } from '@builder.io/qwik-city';
- 
+
 export const useAddUser = routeAction$(
   async (user) => {
     // `user` is typed { name: string }
@@ -30,13 +30,13 @@ export default component$(() => {
       <Brandquestions />
       <Values />
       <div role="presentation" class="ellipsis"></div>
-              <Image src="https://assets.saia.ar/saia/gr1.webp"
-          layout="constrained"
-          width={2830}
-          height={1500}
-          class="inset-0 w-full h-full object-cover object-center absolute z-[-1]"
-          alt="SAIA Brand Gradient 3"
-        />
+      {/* <Image src="https://assets.saia.ar/saia/gr1.webp"
+        layout="constrained"
+        width={2830}
+        height={1500}
+        class="inset-0 w-full rotate-90 h-full object-fill object-center absolute z-[-1]"
+        alt="SAIA Brand Gradient 3"
+      /> */}
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
 
 
