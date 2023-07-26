@@ -1,0 +1,75 @@
+.hero {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 450px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hero p {
+  color: white;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    gap: 60px;
+    height: 500px;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+}
+
+/* linearGradient */
+@keyframes breath {
+  0%, 100% {
+    r: 50;
+  }
+  50% {
+    r: 100;
+  }
+}
+
+.g1 {
+  position: relative;
+  background: rgba(0, 0, 0, 1);
+  min-height: 100vh;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+  fill: none;
+  stroke-width: 20;
+}
+
+.circle1 {
+  stroke: rgba(190, 3, 40, 1);
+  animation: breath 4s infinite;
+}
+
+.circle2 {
+  stroke: rgba(225, 190, 102, 1);
+  animation: breath 4s infinite 1s;
+}
+
+.circle3 {
+  stroke: rgba(29, 52, 58, 1);
+  animation: breath 4s infinite 2s;
+}
+
+.circle4 {
+  stroke: rgba(0, 0, 0, 1);
+  animation: breath 4s infinite 3s;
+}
+

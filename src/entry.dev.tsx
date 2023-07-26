@@ -12,6 +12,8 @@
 import { render, type RenderOptions } from '@builder.io/qwik';
 import Root from './root';
 
+console.log('Starting development server...');
+
 export default function (opts: RenderOptions) {
   return render(document, <Root />, opts);
 }
