@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import AlexanderDitzend from '~/components/profiles/alexanderditzend';
+import AlexanderDitzend from '~/components/logo';
 
 
 
