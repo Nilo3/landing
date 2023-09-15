@@ -1,13 +1,13 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import AlexanderDitzend from '~/components/profiles/alexanderditzend';
+import ThankYou from '~/components/thankyou';
 
 
 
 export default component$(() => {
   return (
     <>
-      <AlexanderDitzend />
+      <ThankYou />
 
       <div role="presentation" class="ellipsis"></div>
       {/* <Image src="https://assets.saia.ar/saia/gr1.webp"

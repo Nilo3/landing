@@ -13,7 +13,7 @@ export default component$(() => {
             <h2 class="text-white text-left text-2xl md:text-4xl font-bold leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">Bio</h2>
             <p class="text-left text-lg leading-8 mb-10">Alexander Ditzend es consultor, capacitador y programador especializado en Inteligencia Artificial aplicada a negocios.</p>
             <p class="text-left text-lg leading-8 mb-10">En los últimos años, acompañó a diferentes organizaciones a desarrollar productos y servicios basados en Inteligencia Artificial partiendo de apoyo a la dirección estratégica y llegando hasta la puesta en marcha junto a los equipos técnicos.</p>
-            <p class="text-left text-lg leading-8 mb-10">Hoy preside la Sociedad Argentina de Inteligencia Artificial.</p>
+            <p class="text-left text-lg leading-8 mb-10">Hoy preside la Sociedad Argentina de Inteligencia Artificial y dirige el Posgrado de Gestión Estratégica de Inteligencia Artificial y Automatización Empresarial en UCEMA.</p>
 
             <div class="mb-20">
               <h2 class="text-white text-left text-2xl md:text-4xl font-bold leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">Fotos</h2>
