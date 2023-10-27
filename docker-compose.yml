@@ -1,0 +1,11 @@
+version: '3'
+services:
+  my-qwik-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-qwik-app
+    container_name: my-qwik-container
+    ports:
+      - "5173:5173"  # Mapea el puerto 5173 del contenedor al mismo puerto en el host
+    restart: always  # Reinicia el contenedor automáticamente si se detiene

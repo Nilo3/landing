@@ -1,0 +1,60 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@keyframes move1 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes move2 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes move3 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+}
+
+.g1 {
+  position: relative;
+  background: rgba(0, 0, 0, 1);
+  min-height: 100vh;
+}
+
+.shape1, .shape2, .shape3, .shape4 {
+  fill: none;
+  stroke-width: 20;
+}
+
+.shape1 {
+  stroke: rgba(190, 3, 40, 1);
+  animation: move1 4s infinite;
+}
+
+.shape2 {
+  stroke: rgba(225, 190, 102, 1);
+  animation: move2 4s infinite;
+}
+
+.shape3 {
+  stroke: rgba(29, 52, 58, 1);
+  animation: move3 4s infinite;
+}
+
+.shape4 {
+  stroke: rgba(0, 0, 0, 1);
+}
