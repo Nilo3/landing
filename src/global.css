@@ -9,9 +9,24 @@
 
 @layer base {
   @font-face {
-    font-family: Manrope;
-    font-weight: 400;
-    src: local('Roboto'), url(./fonts/Manrope-Regular.ttf) format("ttf");
+    font-family: 'Manrope';
+    src: url('.././public/fonts/Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url('.././public/fonts/Manrope-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url('.././public/fonts/Manrope-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
   }
 
 }
@@ -40,7 +55,7 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  font-family: serif;
+  font-family: 'Manrope', serif;
   /* solución provisoria a scroll horizontal hasta redimensionar logo svg de footer:*/
   overflow-x: hidden !important;
 }

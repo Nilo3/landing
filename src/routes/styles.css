@@ -1,10 +1,27 @@
-/* THIS FILE IS JUST FOR EXAMPLES, DELETE IT IF YOU DON'T NEED IT */
+@font-face {
+  font-family: 'Manrope';
+  src: url('.././fonts/Manrope-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('.././fonts/Manrope-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('.././public/fonts/Manrope-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
 
 /* SHELL ---------------------------------------- */
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Manrope', serif;
 }
 
 body {
