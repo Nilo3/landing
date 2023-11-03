@@ -12,7 +12,7 @@ export default component$(() => {
           <div class="space-y-8">
             <div class="h-7">
               {/* Revisar estos valores: (generan overflow horizintal:) */}
-              <SaiaFullLogoBlack width={1000} height={500} />
+              <SaiaFullLogoBlack width= {1000} height={500} />
 
             </div>
 
