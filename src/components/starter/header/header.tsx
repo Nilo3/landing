@@ -28,13 +28,20 @@ export default component$(() => {
         </div>
 
 
+        <div class="lg:flex lg:flex-row items-center justify-end">
+          <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white lg:inline lg:text-lg lg:px-4 lg:py-2 my-2">LinkedIn</a>
+          <div class="lg:hidden lg:flex lg:flex-col lg:w-auto lg:items-center lg:justify-end mt-2">
+            <a href="https://tally.so/r/mBdlK5" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a>
+          </div>
+        </div>
 
-        <div class="lg:hidden gap-x-12 flex-1 items-center justify-end">
+        
+        {/* <div class="lg:hidden gap-x-12 flex-1 items-center justify-end"> */}
           {/* <a href="https://www.instagram.com/saia_ar/" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Instagram</a> */}
           {/* <a href="https://twitter.com/SAIA_AR" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Twitter</a> */}
-          <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a>
-          <a href="https://tally.so/r/mBdlK5" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a>
-        </div>
+          {/* <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a> */}
+          {/* <a href="https://tally.so/r/mBdlK5" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a> */}
+        {/* </div> */}
       </nav>
 
     </header>
