@@ -14,7 +14,7 @@ export default component$(({ name = "${title}" }: { name?: string }) => {
             <p class="text-left text-lg leading-8">
             ${content}</p>
             <div class="hidden mt-10 lg:flex lg:gap-x-12 lg:flex-1 lg:items-center lg:justify-start">
-              <a href="mailto:comunidad@saia.ar" class="rounded-full bg-transparent px-5 py-3 text-md font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black">Ser Parte</a>
+              <a href="https://tally.so/r/mBdlK5" target="_blank" class="rounded-full bg-transparent px-5 py-3 text-md font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black">Ser Parte</a>
             </div>
           </div>
 

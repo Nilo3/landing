@@ -11,7 +11,8 @@ export default component$(() => {
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
           <div class="space-y-8">
             <div class="h-7">
-              <SaiaFullLogoBlack width={1000} height={500} />
+              {/* Revisar estos valores: (generan overflow horizintal:) */}
+              <SaiaFullLogoBlack width= {1000} height={500} />
 
             </div>
 
@@ -60,7 +61,7 @@ export default component$(() => {
               </a>
             </div>
           </div>
-          {/* <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div class="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">Nosotros</h3>
@@ -120,7 +121,7 @@ export default component$(() => {
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div> 
         </div>
         <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
           <p class="text-xs leading-5 text-gray-500">&copy; 2023 Fundación Argentina de Inteligencia Artificial. Todos los derechos reservados.</p>
