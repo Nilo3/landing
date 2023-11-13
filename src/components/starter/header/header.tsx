@@ -32,8 +32,8 @@ export default component$(() => {
         <div class="lg:hidden gap-x-12 flex-1 items-center justify-end">
           {/* <a href="https://www.instagram.com/saia_ar/" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Instagram</a> */}
           {/* <a href="https://twitter.com/SAIA_AR" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Twitter</a> */}
-          <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a>
-          <a href="mailto:comunidad@saia.ar" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a>
+          {/* <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a> */}
+          {/* <a href="mailto:comunidad@saia.ar" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a> */}
         </div>
       </nav>
 
