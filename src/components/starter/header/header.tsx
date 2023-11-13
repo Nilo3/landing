@@ -18,31 +18,31 @@ export default component$(() => {
 
 
         {/* Desktop Menu */}
-        <div class="flex lg:hidden">
+        {/* <div class="flex lg:hidden">
           <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Open main menu</span>
             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
           </button>
-        </div>
+        </div> */}
 
 
         <div class="lg:flex lg:flex-row items-center justify-end">
-          <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-gray-300 hover:text-gray-300 lg:inline lg:text-lg lg:px-4 lg:py-2 mt-3.5 mr-2">LinkedIn</a>
+          {/* <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-gray-300 hover:text-gray-300 lg:inline lg:text-lg lg:px-4 lg:py-2 mt-3.5 mr-2">LinkedIn</a> */}
           <div class="lg:flex lg:flex-col lg:w-auto lg:items-center lg:justify-end mt-4">
-            <a href="https://tally.so/r/mBdlK5" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs lg:text-lg font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300 lg:px-4 lg:py-2 my-1">Ser Parte</a>
+            <a href="https://saia.ar/on" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs lg:text-lg font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300 lg:px-4 lg:py-2 my-1">Asociarse</a>
           </div>
         </div>
 
 
 
-        
+
         {/* <div class="lg:hidden gap-x-12 flex-1 items-center justify-end"> */}
-          {/* <a href="https://www.instagram.com/saia_ar/" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Instagram</a> */}
-          {/* <a href="https://twitter.com/SAIA_AR" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Twitter</a> */}
-          {/* <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a> */}
-          {/* <a href="https://tally.so/r/mBdlK5" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a> */}
+        {/* <a href="https://www.instagram.com/saia_ar/" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Instagram</a> */}
+        {/* <a href="https://twitter.com/SAIA_AR" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">Twitter</a> */}
+        {/* <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-transparent hover:text-white">LinkedIn</a> */}
+        {/* <a href="https://tally.so/r/mBdlK5" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-1 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300">Ser Parte</a> */}
         {/* </div> */}
       </nav>
 

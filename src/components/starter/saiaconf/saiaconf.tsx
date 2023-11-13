@@ -8,13 +8,13 @@ export default component$(() => {
       <div class="container">
         <div class="py-16 px-4 md:px-0">
           <div class="container mx-auto">
-            <h1 class="text-white text-left text-3xl md:text-5xl font-bold leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
-              Conectando al ecosistema IA
+            <h1 class="text-white text-left text-3xl md:text-5xl  leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
+              SAIAConf: La Cumbre de Innovación y Debate en <span class="font-bold">Inteligencia Artificial en Argentina</span>
             </h1>
             <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p class="text-left text-lg leading-8">La Sociedad Argentina de Inteligencia Artificial es una organización independiente, sin fines de lucro dedicada a hacer investigaciones, generar encuentros, fortalecer los nuevos medios de educación y conscientizar a la sociedad sobre el desarrollo ético de la IA.</p>
+              <p class="text-left text-lg leading-8">Líderes en inteligencia artificial se reunirán para moldear el futuro tecnológico del país y el mundo</p>
               <div class="mt-10 lg:mt-0 lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center lg:justify-start">
-                <a href="https://saia.ar/on" target='_blank' class="rounded-full bg-transparent mt-5 px-5 py-3 text-md font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black">Ser Parte</a>
+                <a href="https://saia.ar/conf" target='_blank' class="rounded-full bg-transparent mt-5 px-5 py-3 text-md text-center font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black">Reservar gratis un lugar</a>
               </div>
             </div>
           </div>
