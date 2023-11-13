@@ -6,7 +6,7 @@ export default component$(() => {
 
       <div class=" py-16 px-4 md:px-0">
         <div class="container mx-auto">
-          <h1 class="text-white text-left text-3xl md:text-5xl font-bold leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
+          <h1 class="text-red text-left text-3xl md:text-5xl font-bold leading-tight mb-8 md:mb-12 max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
             Conectando al ecosistema IA
           </h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
