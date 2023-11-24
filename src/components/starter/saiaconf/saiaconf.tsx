@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-
+import { Grilla } from '../icons/grilla';
 export default component$(() => {
   return (
     <div class={['container']}>
@@ -19,6 +19,8 @@ export default component$(() => {
             </div>
           </div>
         </div>
+        <Grilla url="https://assets.saia.ar/saia/conf/grilla.png" />
+
       </div>
       {/*}
       <div class=" py-16 px-4 md:px-0">
