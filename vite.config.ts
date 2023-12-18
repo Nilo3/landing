@@ -11,5 +11,14 @@ export default defineConfig(() => {
         "Cache-Control": "public, max-age=600",
       },
     },
+    server: {
+      watch: {
+          usePolling: true
+      },
+      host: '0.0.0.0',
+      strictPort: true,
+      open: false, // previously set to true
+      port: 5173
+  }
   };
 });

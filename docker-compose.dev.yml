@@ -3,6 +3,7 @@ services:
     extends:
       file: docker-compose.yml
       service: my-qwik-app
+    container_name: my-qwik-container-dev
     volumes:
       - node_modules_cache:/app/node_modules/
       - ./:/app

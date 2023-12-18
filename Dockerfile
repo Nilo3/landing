@@ -1,23 +1,19 @@
-# Usa la imagen base de Node.js
-FROM node:18
+# Intermediate docker image to build the bundle in and install dependencies
+FROM node:19
 
-# Establece el directorio de trabajo
+# Set the working directory to /app
 WORKDIR /app
 
-# Copia el package.json y package-lock.json
-COPY package*.json ./
+# Copy the package.json and package-lock.json over in the intermedate "build" image
+COPY ./package.json ./
+COPY ./package-lock.json ./
 
-# Instala npm globalmente en una versión compatible
-RUN npm install -g npm@9
-
-# Instala las dependencias forzando la resolución de conflictos
+# Install the dependencies
+# Clean install because we want to install the exact versions
 RUN npm install
 
-# Copia todo el código de la aplicación
+# Copy the source code into the build image
 COPY . .
 
-# Expone el puerto utilizado por la aplicación
-EXPOSE 5173
-
-# Comando para iniciar la aplicación
-CMD ["npm", "run", "start"]
+# Start the application
+CMD [ "npm", "start"]
