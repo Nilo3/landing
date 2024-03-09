@@ -14,7 +14,7 @@ export default component$(() => {
             <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p class="text-left text-lg leading-8">La Sociedad Argentina de Inteligencia Artificial es una organización independiente, sin fines de lucro dedicada a hacer investigaciones, generar encuentros, fortalecer los nuevos medios de educación y conscientizar a la sociedad sobre el desarrollo ético de la IA.</p>
               <div class="mt-10 lg:mt-0 lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center lg:justify-start">
-                <a href="https://saia.ar/on" target='_blank' class="rounded-full bg-transparent mt-5 px-5 py-3 text-md font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black">Ser Parte</a>
+                <a href="https://saia.ar/on" target='_blank' class="rounded-full bg-transparent mt-5  px-5 py-3 text-md font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:bg-white hover:text-black">Ser Parte</a>
               </div>
             </div>
           </div>

@@ -67,13 +67,13 @@ export default component$(() => {
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">Nosotros</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Consejo de Administración</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">Consejo de Administración</div>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Estatuto</a>
+                    <div  class="text-sm leading-6 text-gray-600 hover:text-gray-900">Estatuto</div>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Equipo</a>
+                    <div  class="text-sm leading-6 text-gray-600 hover:text-gray-900">Equipo</div>
                   </li>
 
                 </ul>
@@ -82,13 +82,13 @@ export default component$(() => {
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">Comunidad</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Ser parte</a>
+                    <a href="https://tally.so/r/mBdlK5" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Ser parte</a>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Eventos</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">Eventos</div>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Código de conducta</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">Código de conducta</div>
                   </li>
                 </ul>
               </div>
@@ -98,13 +98,13 @@ export default component$(() => {
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">Servicios</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Charlas y Workshops</a>
+                    <div  class="text-sm leading-6 text-gray-600 hover:text-gray-900">Charlas y Workshops</div>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">SAIA Cloud</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">SAIA Cloud</div>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Consultoría</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">Consultoría</div>
                   </li>
                 </ul>
               </div>
@@ -112,10 +112,10 @@ export default component$(() => {
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">Profesionales</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Unidad de vinculación tecnológica</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">Unidad de vinculación tecnológica</div>
                   </li>
                   <li>
-                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Ofrecer servicios</a>
+                    <div class="text-sm leading-6 text-gray-600 hover:text-gray-900">Ofrecer servicios</div>
                   </li>
 
                 </ul>
