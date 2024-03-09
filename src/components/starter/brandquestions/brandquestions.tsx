@@ -73,7 +73,7 @@ export default component$(() => {
       <div class="bg-black py-16 sm:py-24 md:py-32 lg:py-40 xl:py-48">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-2xl sm:text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            <h2 class="text-2xl font-bold tracking-tight text-white sm:text-6xl">
               ¿Cómo puede SAIA ayudarme?
             </h2>
             <p class="mt-4 sm:mt-6 text-base sm:text-lg leading-6 text-white">
