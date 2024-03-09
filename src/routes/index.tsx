@@ -1,6 +1,5 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import Hero from '~/components/starter/hero/hero';
 import Saiaconf from '~/components/starter/saiaconf/saiaconf';
 import Starter from '~/components/starter/next-steps/next-steps';
 import Values from '~/components/starter/values/values';
