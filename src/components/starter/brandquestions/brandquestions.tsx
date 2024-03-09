@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik"
-import image from "/images/dossier.jpg"
+import { Image } from '@unpic/qwik'
 
 export default component$(() => {
   return (
@@ -26,8 +26,8 @@ export default component$(() => {
               </div>
             </div>
             <div class="lg:flex-1 flex justify-center lg:justify-end mt-12 lg:mt-0">
-              <img
-                src={image}
+              <Image
+                src="/images/dossier.jpg"
                 alt="Dossier de prensa"
                 class="rounded-2xl lg:mr-24 ml-4 md:ml-0 "
                 width="288"
