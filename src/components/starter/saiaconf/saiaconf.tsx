@@ -35,13 +35,13 @@ export default component$(() => {
               class="rounded-lg"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/T6PjcjKL7yQ?autoplay=1&mute=1"
+              src="https://www.youtube.com/embed/T6PjcjKL7yQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   )

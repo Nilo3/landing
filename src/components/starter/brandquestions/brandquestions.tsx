@@ -10,7 +10,7 @@ export default component$(() => {
       <div class="bg-black py-16 sm:py-24 md:py-32 lg:py-40 -mt-24">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="flex flex-col lg:flex-row justify-between">
-            <div class="mx-auto max-w-2xl lg:mx-24 lg:flex-1">
+            <div class="mx-auto max-w-2xl lg:mx-40 xl:mx-24 2xl:mx-0 lg:flex-1">
               <h2 class="text-2xl ml-10 md:ml-0 sm:text-4xl font-bold tracking-tight text-white">
                 Dossier de prensa
               </h2>
