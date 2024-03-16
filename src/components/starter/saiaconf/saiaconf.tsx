@@ -35,7 +35,7 @@ export default component$(() => {
               class="rounded-lg"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/T6PjcjKL7yQ?autoplay=1&mute=1"
+              src="https://www.youtube.com/embed/iNbv-zkNON8?si=mxyml1euV4dj2G__"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

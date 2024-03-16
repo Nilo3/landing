@@ -1,0 +1,79 @@
+{
+    "equipo": [
+      {
+        "nombre": "Alexander Ditzend",
+        "posicion": "Presidente",
+        "foto": "https://r2.easyimg.io/hquruoymw/foto-perfil-alexander-ditzend-bw-1000.png"
+      },
+      {
+        "nombre": "Maximiliano Goyeneche",
+        "posicion": "Vicepresidente",
+        "foto": "https://r2.easyimg.io/lri1mf12p/foto_maximiliano_goyheneche.png"
+      },
+      {
+        "nombre": "Patricio Rouan",
+        "posicion": "Director de operaciones",
+        "foto": "https://r2.easyimg.io/y8gptuuuq/fotoperfil7.png"
+      },
+      {
+        "nombre": "Damián Aguilera",
+        "posicion": "Director de finanzas",
+        "foto": "https://r2.easyimg.io/tlprn9aab/foto_damián_aguilera.png"
+      },
+      {
+        "nombre": "Ana Montes de Oca",
+        "posicion": "Líder de Ética y Responsabilidad en Inteligencia Artificial y Coordinadora Regional de Mendoza",
+        "foto": "https://r2.easyimg.io/yl30xp8s5/foto_ana.png"
+      },
+      {
+        "nombre": "Hernán Dorra",
+        "posicion": "Industria Musical",
+        "foto": "https://r2.easyimg.io/coi8553ix/foto_hernán_dorra.png"
+      },
+      {
+        "nombre": "Alejandro Sosa",
+        "posicion": "Jefe de Coordinadores Regionales y Coordinador Regional de Jujuy",
+        "foto": "https://r2.easyimg.io/4hc5k1twx/foto_de_ale_sosa.png"
+      },
+      {
+        "nombre": "Juan Ignacio Asprella",
+        "posicion": "Comunicación",
+        "foto": "https://r2.easyimg.io/i8ucob7oi/foto_nacho_asprella-recuperado.png"
+      },
+      {
+        "nombre": "César Briatore",
+        "posicion": "Proyectos",
+        "foto": "https://r2.easyimg.io/ijwxizi3x/foto_césar_briatore.png"
+      },
+      {
+        "nombre": "Lucas de Venezia",
+        "posicion": "Derecho y Tecnología",
+        "foto": "https://r2.easyimg.io/wievcxygy/foto_lucas_de_venezia.png"
+      },
+      {
+        "nombre": "Pablo Carranza",
+        "posicion": "Educación",
+        "foto": "https://r2.easyimg.io/238k6t6mm/foto_de_pablo_carranza.png"
+      },
+      {
+        "nombre": "Andrea Carnevale",
+        "posicion": "Administración",
+        "foto": "https://r2.easyimg.io/83bodd4kk/foto_andrea_carnevale.png"
+      },
+      {
+        "nombre": "María Florencia Echezarreta",
+        "posicion": "People",
+        "foto": "https://r2.easyimg.io/i3lfxh4ay/foto_flor_echezarreta.png"
+      },
+      {
+        "nombre": "Cristian Santander",
+        "posicion": "Vinculación Empresarial",
+        "foto": "https://r2.easyimg.io/5iptmpaez/foto_cristian_santander.png"
+      },
+      {
+        "nombre": "Francisco Ghelfi",
+        "posicion": "Vinculación Tecnológica",
+        "foto": "https://r2.easyimg.io/cni4efnzm/foto_fran_ghelfi.png"
+      }
+    ]
+  }

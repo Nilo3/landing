@@ -30,8 +30,9 @@ export default component$(() => {
 
         <div class="lg:flex lg:flex-row items-center justify-end">
           {/* <a href="https://www.linkedin.com/company/sociedad-argentina-de-inteligencia-artificial" class="rounded-full bg-transparent px-2 py-1 text-xs font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-gray-300 hover:text-gray-300 lg:inline lg:text-lg lg:px-4 lg:py-2 mt-3.5 mr-2">LinkedIn</a> */}
-          <div class="lg:flex lg:flex-col lg:w-auto lg:items-center lg:justify-end mt-4">
+          <div class="lg:flex lg:flex-row lg:w-auto lg:items-center lg:justify-end mt-4">
             <a href="https://saia.ar/on" target='_blank' class="rounded-full bg-transparent px-2 py-1 text-xs lg:text-lg font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300 lg:px-4 lg:py-2 my-1">Asociarse</a>
+            <a href="/equipo" target='_blank' class="rounded-full md:ml-4 ml-1 bg-transparent px-2 py-1 text-xs lg:text-lg font-semibold text-white shadow-sm ring-2 ring-inset ring-white hover:ring-2 hover:ring-gray-300 hover:text-gray-300 lg:px-4 lg:py-2 my-1">Equipo</a>
           </div>
         </div>
 

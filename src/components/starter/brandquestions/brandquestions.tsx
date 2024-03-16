@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik"
-import image from "/images/dossier.jpg"
+import image from '/images/dossier.jpg'
 import { Image } from '@unpic/qwik'
 
 export default component$(() => {

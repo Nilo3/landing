@@ -36,11 +36,11 @@ import Root from './root';
 //     const response: AxiosResponse = await axios.post('https://api.notion.com/v1/databases/45be3615ec4847dc9ab5ae6d35c04586/query', {}
 //       , { headers });
 //     console.log(response.data.results[0].properties.Name.title[0].plain_text)
-//     const route0 = response.data.results[0].properties.Route.select.name
-//     console.log(route0);
+//     const nosotros = response.data.results[0].properties.Route.select.name
+//     console.log(nosotros);
 
 //     const __dirname = path.resolve();
-//     const dirPath = path.join(__dirname, '/src/routes/route0');
+//     const dirPath = path.join(__dirname, '/src/routes/nosotros');
 //     const filePath = path.join(dirPath, 'index.tsx');
 //     fs.mkdir(dirPath, { recursive: true }, (err) => {
 //       if (err) throw err;
