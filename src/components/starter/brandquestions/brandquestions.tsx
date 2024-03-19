@@ -30,7 +30,7 @@ export default component$(() => {
               <Image
                 src={image}
                 alt="Dossier de prensa"
-                class="rounded-2xl lg:mr-24 ml-4 md:ml-0 "
+                class="rounded-2xl lg:mr-24 ml-4 md:ml-0 2xl:mr-12 "
                 width="288"
                 height="288"
               />
